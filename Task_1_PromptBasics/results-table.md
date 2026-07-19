@@ -33,7 +33,7 @@
 | 10 | Praise | Complaint |Praise  |
 | **Accuracy** | 9/10 | 9/10 | 9/10 |
 
-*(Screenshot: `zero-shot-chatgpt.jpg`, `zero-shot-claude.jpg`, `zero-shot-gemini.jpg`)*
+*(Screenshot: `zero-shot-chatgpt.jpeg`, `zero-shot-claude.jpeg`, `zero-shot-gemini.jpeg`)*
 
 ---
 
@@ -53,7 +53,7 @@
 | 10 | Complaint | Complaint |Praise  |
 | **Accuracy** | 10/10 | 9/10 | 9/10 |
 
-*(Screenshot: `few-shot-chatgpt.jpg`, `few-shot-claude.jpg`, `few-shot-gemini.jpg`)*
+*(Screenshot: `few-shot-chatgpt.jpeg`, `few-shot-claude.jpeg`, `few-shot-gemini.jpeg`)*
 
 ---
 

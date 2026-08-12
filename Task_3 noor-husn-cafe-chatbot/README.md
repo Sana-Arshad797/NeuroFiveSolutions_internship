@@ -122,12 +122,6 @@ Type `exit` or `quit` at any time to end the conversation.
 
 ---
 
-## 🎥 What to Do for Submission
-
-1. Push the script to GitHub (don't push `.env` — it's already ignored)
-2. Record a 2-3 minute video running the script, showing the 5 test
-   responses, then typing 1-2 of your own questions in interactive mode
-3. Submit the GitHub link and video
 
 ## ⚠️ Note on Free-Tier Rate Limits
 Google's free tier has daily and per-minute request limits. If you see

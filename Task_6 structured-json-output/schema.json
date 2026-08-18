@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/schemas/support-message.schema.json",
+  "title": "CustomerSupportMessage",
+  "description": "Structured representation of an unstructured customer support message.",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Customer's full name. Empty string if not provided in the message."
+    },
+    "email": {
+      "type": "string",
+      "description": "Customer's email address. Empty string if not provided in the message.",
+      "anyOf": [
+        { "format": "email" },
+        { "const": "" }
+      ]
+    },
+    "issue_type": {
+      "type": "string",
+      "description": "Category of the customer's issue.",
+      "enum": ["payment", "account", "technical", "delivery", "refund", "other"]
+    },
+    "urgency": {
+      "type": "string",
+      "description": "Estimated urgency of the issue based on message content.",
+      "enum": ["low", "medium", "high"]
+    },
+    "message": {
+      "type": "string",
+      "description": "The customer's original problem, summarized or preserved without inventing new details."
+    }
+  },
+  "required": ["name", "email", "issue_type", "urgency", "message"],
+  "additionalProperties": false
+}

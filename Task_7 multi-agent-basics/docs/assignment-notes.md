@@ -2,7 +2,7 @@
 
 This document maps each requirement from the "Multi-Agent Basics — Two AIs
 Working Together" assignment directly to where it's implemented in this
-project.
+project
 
 ---
 

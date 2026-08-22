@@ -50,7 +50,7 @@ switched to Zapier's built-in free AI action).
 
 ## Planned Test Cases (for re-run once the credit issue is resolved)
 
-| Test # | Input Feedback | Expected Category | Expected Sentiment | Expected Summary | Zapier Result | Google Sheets Result |
+| Test # | Input Feedback |  Category | Sentiment | Expected Summary | Zapier Result | Google Sheets Result |
 |---|---|---|---|---|---|---|
 | 2 | "The assignment instructions were confusing and I wasn't sure what was required." (Course: Programming) | Assignment | Negative | The assignment instructions were unclear. | Failed — OpenAI out of credits | Not created (step failed before reaching Sheets) |
 | 3 | "The lectures are good, but some examples need more explanation." (Course: Database Systems) | Instructor | Neutral | Some lecture examples could use additional explanation. | Failed — OpenAI out of credits | Not created (step failed before reaching Sheets) |

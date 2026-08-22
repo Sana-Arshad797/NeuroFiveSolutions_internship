@@ -1,7 +1,4 @@
-> **NOTE:** This is a hand-written EXAMPLE of what this file will contain
-> once you run `python main.py` with a real `OPENAI_API_KEY`. It was not
-> produced by a live API call — running the program will overwrite this
-> file with actual model output.
+
 
 # Topic: The Importance of Cybersecurity in Artificial Intelligence
 

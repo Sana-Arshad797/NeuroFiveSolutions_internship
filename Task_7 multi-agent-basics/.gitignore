@@ -1,0 +1,13 @@
+# Environment variables (contains your real API key - never commit this)
+.env
+
+# Python cache/build files
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+
+# macOS
+.DS_Store

@@ -4,7 +4,7 @@ Editor/Critic Agent
 This is Agent 2 in the pipeline. It receives Agent 1's raw draft as input
 (this is the key "multi-agent" step — one agent's output feeds the next
 agent's input) and produces an improved final draft plus a list of the
-improvements it made.
+improvements it made
 """
 
 from openai import OpenAI
